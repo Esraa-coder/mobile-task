@@ -2,6 +2,7 @@ package com.example.esraamahmoud
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import androidx.room.vo.Entity
 
 @Entity(tableName = "tasks")
 data class Task(
